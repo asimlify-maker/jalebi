@@ -1,6 +1,149 @@
 [
+
 {
   "id": 1,
+  "title": "The Golden Principle of Al-Khwarizmi (Algorithm)",
+  "slug": "blog-title",
+  "author": { "name": "Author name" },
+  "publishedDate": "2026-06-19",
+  "summary": "1-2 sentence summary of the post.",
+  "tags": ["tag1", "tag2"],
+  "content": [
+    { "type": "heading", "level": 2, "text": "Introduction" },
+	
+    { "type": "paragraph", "level": 2, "text": "Al-Khwarizmi left a golden rule for the world to create science with. The al-Khwarizmi principle states that all complex problems of science must be and can be solved by means of the following five simple steps:" },
+    
+	{ "type": "list", "ordered": false, "items": [
+	"Break down each problem into a number of elemental or ‘atomic’ steps. An elemental or atomic step is one, which cannot be simplified any further.", 
+	"Second, arrange all the elements or steps of the problem in an order or sequence, such that each element can be taken up and solved one at a time, without affecting other parts of the problem.",
+	"Next, find a way to solve each of the elements separately. Because each element has been simplified to the maximum, it is very likely that the solution of an elemental step will itself be extremely simple or elemental making it available with relative ease.",
+	"Then proceed to solve each element of the problem, either one at a time or several at a time, but in the correct order. Thus, when all steps are solved, the original problem itself has also been solved.",
+	"end",
+
+	] },
+	
+	{ "type": "paragraph", "text": "Al-Khwarizmi used his own principle to solve many major problems of Algebra, Geometry, Astronomy, and other fields of science. Therefore he not only left us the golden rule but also many brilliant examples of how to use his rule. As a very simple example of an algorithm let us develop one for posting a letter. It will go something as follows:" },
+	{ "type": "list", "ordered": false, "items": [
+	"Obtain the letter to be posted", 
+	"Fold it correctly",
+	"Obtain an envelope of correct size", 
+	"Obtain a pen",
+	"Obtain the address at which the letter is to be posted", 
+	"Copy the address on the envelope.",
+	"Seal the letter to be posted in the envelope.", 
+	"Put the envelope safely in your pocket.",
+	"Answer the question if the post office is within a walking distance?",
+	"If the answer to the question is ‘Yes’ then walk to the post office.", 
+	"If the answer to the question in step 10 is ‘NO’, get your bicycle and ride it to the post office.",
+	"Purchase the required postage stamp.", 
+	"Affix the postage stamp on the envelope.",	
+	"Put the letter into the post box.",	
+	"The End", 
+	] 
+	},
+	
+	{ "type": "paragraph", "text": "The fourteen elemental steps in our simple algorithm, wherever followed in the correct sequence, should result in successful posting of a letter. Do you agree with the above algorithm for posting of a letter? If not can you improve upon it?" },
+	
+	{ "type": "heading", "level": 2, "text": " Figure: 1.1 Logic Flow Diagrams for Letter Posting Algorithm" },
+	
+	{
+      "type": "image",
+      "src": "https://asimlify-maker.github.io/jalebi/1.jpg",
+      "alt": "Descriptive alt text",
+      "caption": "Optional caption",
+      "width": 1200,
+      "height": 630
+    },
+
+	
+	{ "type": "paragraph", "text": "The elemental steps listed above for posting of a letter are also presented in the form of a diagram in Fig. 1.1. This diagram is usually termed as a logic flow diagram. A logic flow diagram not only shows all the steps of an algorithm, but it also indicates clearly the exact sequence in which the steps are to be taken and to what extent do they depend upon or exclude each other." },
+ 	
+	{ "type": "paragraph", "text": "Students in the class must study the steps and the diagram critically and discover one or more ways of improving the algorithm and the diagram. They must also practice and think of other simple problems, develop algorithms and the flow diagrams to represent these algorithms. They should soon discover both the powers of this method and simplicity of the concept." },
+	
+	{ "type": "paragraph", "text": "Paragraph text..." },
+    { "type": "heading", "level": 2, "text": "Section heading" },
+    { "type": "paragraph", "text": "Paragraph text..." },
+    { "type": "paragraph", "text": "Another paragraph..." },
+    { "type": "list", "ordered": false, "items": ["Item 1", "Item 2"] },
+    { "type": "faq", "items": [
+      { "q": "Question?", "a": "Answer..." }
+    ] }
+  
+    {
+      "type": "image",
+      "src": "https://asimlify-maker.github.io/jalebi/1.jpg",
+      "alt": "Descriptive alt text",
+      "caption": "Optional caption",
+      "width": 1200,
+      "height": 630
+    },
+
+    {
+      "type": "audio",
+      "src": "https://asimlify-maker.github.io/jalebi/1.mp3",
+      "title": "Optional track title",
+      "mimeType": "audio/mpeg"
+    },
+
+    {
+      "type": "audio",
+      "src": "hhttps://asimlify-maker.github.io/jalebi/2.mp3",
+      "title": "Optional track title",
+      "mimeType": "audio/mpeg"
+    },
+
+
+
+    {
+      "type": "audio",
+      "src": "https://asimlify-maker.github.io/jalebi/3.mp3",
+      "title": "Optional track title",
+      "mimeType": "audio/mpeg"
+    },
+
+
+    {
+      "type": "audio",
+      "src": "hhttps://asimlify-maker.github.io/jalebi/4.mp3",
+      "title": "Optional track title",
+      "mimeType": "audio/mpeg"
+    },	
+	
+    {
+      "type": "audio",
+      "src": "https://example.com/2.mp3",
+      "title": "Optional track title",
+      "mimeType": "audio/mpeg"
+    },
+	
+    {
+      "type": "audio",
+      "src": "https://example.com/3.mp3",
+      "title": "Optional track title",
+      "mimeType": "audio/mpeg"
+    },
+
+    {
+      "type": "audio",
+      "src": "https://example.com/4.mp3",
+      "title": "Optional track title",
+      "mimeType": "audio/mpeg"
+    },
+	
+    {
+      "type": "video",
+      "src": "https://example.com/video.mp4",
+      "title": "Optional video title",
+      "poster": "https://example.com/video-poster.jpg",
+      "mimeType": "video/mp4"
+    }
+  ]
+},
+
+
+
+{
+"id": 1,
   "title": "Blog title",
   "slug": "blog-title",
   "author": { "name": "Author name" },
@@ -20,7 +163,7 @@
   
     {
       "type": "image",
-      "src": "https://example.com/image.jpg",
+      "src": "https://asimlify-maker.github.io/jalebi/1.jpg",
       "alt": "Descriptive alt text",
       "caption": "Optional caption",
       "width": 1200,
