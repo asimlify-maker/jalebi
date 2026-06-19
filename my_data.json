@@ -18,7 +18,7 @@
 	"Second, arrange all the elements or steps of the problem in an order or sequence, such that each element can be taken up and solved one at a time, without affecting other parts of the problem.",
 	"Next, find a way to solve each of the elements separately. Because each element has been simplified to the maximum, it is very likely that the solution of an elemental step will itself be extremely simple or elemental making it available with relative ease.",
 	"Then proceed to solve each element of the problem, either one at a time or several at a time, but in the correct order. Thus, when all steps are solved, the original problem itself has also been solved.",
-	"end",
+	"end"
 
 	] },
 	
@@ -38,7 +38,7 @@
 	"Purchase the required postage stamp.", 
 	"Affix the postage stamp on the envelope.",	
 	"Put the letter into the post box.",	
-	"The End", 
+	"The End"
 	] 
 	},
 	
@@ -80,7 +80,7 @@
     { "q": "Why is a logic flow diagram used for an algorithm?", "a": "It shows all the steps, the exact sequence, and how steps depend on or exclude each other." },
     { "q": "How should students use the logic flow diagram and algorithm method?", "a": "They should study it critically, improve the algorithm/diagram, and practice by creating algorithms and flow diagrams for other simple problems." }
   ]
-}
+},
 
   
     {
@@ -145,7 +145,7 @@
       "title": "Optional video title",
       "poster": "https://example.com/video-poster.jpg",
       "mimeType": "video/mp4"
-    },	
+    }
 	
   ]
 },
@@ -169,7 +169,7 @@
     { "type": "list", "ordered": false, "items": ["Item 1", "Item 2"] },
     { "type": "faq", "items": [
       { "q": "Question?", "a": "Answer..." }
-    ] }
+    ] },
   
     {
       "type": "image",
