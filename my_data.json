@@ -1,0 +1,47 @@
+[
+{
+  "title": "Blog title",
+  "slug": "blog-title",
+  "author": { "name": "Author name" },
+  "publishedDate": "2026-06-19",
+  "summary": "1-2 sentence summary of the post.",
+  "tags": ["tag1", "tag2"],
+  "content": [
+    { "type": "heading", "level": 2, "text": "Section heading" },
+    { "type": "paragraph", "text": "Paragraph text..." },
+    { "type": "heading", "level": 2, "text": "Section heading" },
+    { "type": "paragraph", "text": "Paragraph text..." },
+    { "type": "paragraph", "text": "Another paragraph..." },
+    { "type": "list", "ordered": false, "items": ["Item 1", "Item 2"] },
+    { "type": "faq", "items": [
+      { "q": "Question?", "a": "Answer..." }
+    ] }
+  
+    {
+      "type": "image",
+      "src": "https://example.com/image.jpg",
+      "alt": "Descriptive alt text",
+      "caption": "Optional caption",
+      "width": 1200,
+      "height": 630
+    },
+
+    {
+      "type": "audio",
+      "src": "https://example.com/audio.mp3",
+      "title": "Optional track title",
+      "mimeType": "audio/mpeg"
+    },
+
+    {
+      "type": "video",
+      "src": "https://example.com/video.mp4",
+      "title": "Optional video title",
+      "poster": "https://example.com/video-poster.jpg",
+      "mimeType": "video/mp4"
+    }
+  ]
+}
+
+
+]
