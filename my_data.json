@@ -1,5 +1,6 @@
 [
 {
+  "id": 1,
   "title": "Blog title",
   "slug": "blog-title",
   "author": { "name": "Author name" },
