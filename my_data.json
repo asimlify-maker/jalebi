@@ -65,9 +65,23 @@
     { "type": "paragraph", "text": "Paragraph text..." },
     { "type": "paragraph", "text": "Another paragraph..." },
     { "type": "list", "ordered": false, "items": ["Item 1", "Item 2"] },
-    { "type": "faq", "items": [
-      { "q": "Question?", "a": "Answer..." }
-    ] }
+
+{
+  "type": "faq",
+  "items": [
+    { "q": "What is the Golden Principle of Al-Khwarizmi (Algorithm)?", "a": "It states that complex problems of science can be solved using five simple steps." },
+    { "q": "What is step 1 in Al-Khwarizmi’s principle?", "a": "Break each problem into elemental or 'atomic' steps that cannot be simplified further." },
+    { "q": "What is step 2 in Al-Khwarizmi’s principle?", "a": "Arrange the elemental steps in an order so each part can be solved one at a time without affecting others." },
+    { "q": "What is step 3 in Al-Khwarizmi’s principle?", "a": "Find a way to solve each elemental step separately, which often makes the solutions very simple." },
+    { "q": "What is step 4 in Al-Khwarizmi’s principle?", "a": "Solve each element in the correct order, either one at a time or several at a time." },
+    { "q": "What is step 5 in Al-Khwarizmi’s principle?", "a": "When all steps are solved, the original problem is also solved." },
+    { "q": "Which fields of science did Al-Khwarizmi use the principle in?", "a": "Algebra, Geometry, Astronomy, and other fields of science." },
+    { "q": "What is the purpose of the posting-a-letter algorithm example?", "a": "To show how the elemental steps of an algorithm can be followed in sequence to achieve a successful result." },
+    { "q": "Why is a logic flow diagram used for an algorithm?", "a": "It shows all the steps, the exact sequence, and how steps depend on or exclude each other." },
+    { "q": "How should students use the logic flow diagram and algorithm method?", "a": "They should study it critically, improve the algorithm/diagram, and practice by creating algorithms and flow diagrams for other simple problems." }
+  ]
+}
+
   
     {
       "type": "image",
@@ -108,20 +122,6 @@
       "title": "Optional track title",
       "mimeType": "audio/mpeg"
     },	
-	
-    {
-      "type": "audio",
-      "src": "https://example.com/2.mp3",
-      "title": "Optional track title",
-      "mimeType": "audio/mpeg"
-    },
-	
-    {
-      "type": "audio",
-      "src": "https://example.com/3.mp3",
-      "title": "Optional track title",
-      "mimeType": "audio/mpeg"
-    },
 
     {
       "type": "audio",
@@ -136,7 +136,17 @@
       "title": "Optional video title",
       "poster": "https://example.com/video-poster.jpg",
       "mimeType": "video/mp4"
-    }
+    },
+	
+	
+    {
+      "type": "youtube",
+      "src": "https://www.youtube.com/watch?v=UrsmFxEIp5k&pp=ygUHcHl0aG9uINIHCQk_CwGHKiGM7w%3D%3D",
+      "title": "Optional video title",
+      "poster": "https://example.com/video-poster.jpg",
+      "mimeType": "video/mp4"
+    },	
+	
   ]
 },
 
